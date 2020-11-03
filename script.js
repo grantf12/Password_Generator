@@ -15,7 +15,7 @@ var password = "";
   while (user_Length < 8 || user_Length >128) {
     user_Length = prompt("How long would you like your password? (must be between 8-128 characters)")
     }
-  var user_Lowercase = confirm("Would you like to include lowercase letters? Password will include lowercase letters by default. (Click OK to confirm.)");
+  var user_Lowercase = confirm("Would you like to include lowercase letters? (Click OK to confirm.)");
   var user_Uppercase = confirm("Would you like to include uppercase letters? (Click OK to confirm.)");
   var user_Numbers = confirm("Would you like to include numbers (0-9)? (Click OK to confirm.)");
   var user_Symbols = confirm("Would you like to include symbols? (Click OK to confirm.)");
